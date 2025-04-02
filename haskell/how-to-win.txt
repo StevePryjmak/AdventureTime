@@ -1,0 +1,55 @@
+startgame
+take navigation system
+move north
+take communication array
+take access code decoder
+move west
+take shields
+move east
+move east
+take hyperdrive engine
+move west
+move south
+use navigation system on broken millennium falcon
+use communication array on broken millennium falcon
+use hyperdrive engine on broken millennium falcon
+use shields on broken millennium falcon
+warp north
+move north
+move east
+move east
+take old access key
+move south
+warp west
+move west
+move north
+open encrypted door with old access key
+move north
+take data fragment (tempest)
+move south
+move south
+move east
+warp south
+take old access key
+warp east
+warp south
+warp east
+move east
+open encrypted door with old access key
+move south
+take data fragment (pyro)
+move north
+move west
+warp north
+move south
+move east
+take data fragment (verdant)
+move west
+move north
+warp west
+move north
+use data fragment (verdant) on access code decoder
+use data fragment (pyro) on access code decoder
+use data fragment (tempest) on access code decoder
+open imperial database with decoded access code
+move north

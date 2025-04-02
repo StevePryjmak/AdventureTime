@@ -1,0 +1,44 @@
+cabal-version:      2.4
+name:               adventure
+version:            0.2.0.0
+
+synopsis:           A Star Wars–themed text adventure game in Haskell.
+
+description:
+    This is a refactored version of a text-based adventure game,
+    originally themed around island exploration, now rebuilt with
+    a Star Wars twist. Explore planets, gather items, open doors,
+    and uncover Imperial secrets.
+
+category:           Game
+
+author:             Binh Vuong Le Duc, Andrii-Stepan Pryimak
+
+executable adventure
+    main-is:            Adventure.hs
+    other-modules:
+        Cordinations,
+        Information,
+        Items,
+        Doors,
+        Aurelia,
+        Desolara,
+        Dunestria,
+        Glaciera,
+        Verdantis,
+        Tempestara,
+        Ignisia,
+        Aggregator,
+        Utils,
+        World,
+        InfoCommands,
+        MoveCommands,
+        ItemCommands,
+        DoorCommands
+
+    hs-source-dirs:   app
+
+    build-depends:
+        base >=4.14 && <5,
+        ansi-terminal ^>=0.11.3
+    default-language:  Haskell2010
