@@ -1,0 +1,58 @@
+[adventure].
+start.
+take(navigation_system).
+n.
+take(communication_array).
+e.
+take(hyperdrive_engine).
+w.
+w.
+take(shields).
+s.
+use(broken_falcon, navigation_system).
+use(broken_falcon, communication_array).
+use(broken_falcon, hyperdrive_engine).
+use(broken_falcon, shields).
+
+warp(e).
+s.
+e.
+take(data_fragment_verdant).
+w.
+n.
+warp(w).
+warp(w).
+take(old_access_key).
+warp(n).
+w.
+n.
+use_key(old_access_key, n).
+n.
+take(data_fragment_tempest).
+s.
+s.
+e.
+warp(e).
+n.
+e.
+e.
+take(old_access_key).
+s.
+warp(s).
+warp(s).
+warp(e).
+e.
+use_key(old_access_key, s).
+s.
+take(data_fragment_pyro).
+n.
+w.
+warp(n).
+warp(w).
+n.
+use(access_code_decoder, data_fragment_pyro).
+use(access_code_decoder, data_fragment_verdant).
+use(access_code_decoder, data_fragment_tempest).
+take(decoded_access_code).
+use_key(decoded_access_code, n).
+n.
