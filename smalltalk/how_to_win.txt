@@ -1,0 +1,61 @@
+take navigation_system
+move north
+take communication_array
+move east
+take hyperdrive_engine
+move west
+move west
+take shields
+move east
+move south
+use navigation_system broken_falcon
+use communication_array broken_falcon
+use hyperdrive_engine broken_falcon
+use shields broken_falcon
+
+warp east
+move south
+move east
+take data_fragment_verdant
+move west
+move north
+
+warp west
+warp west
+take old_tempestara_fortress_key
+warp north
+move west
+move north
+use_key old_tempestara_fortress_key north
+move north
+take data_fragment_tempest
+move south
+move south
+move east
+
+warp east
+move north
+move east
+move east
+take old_access_key
+move west
+move west
+move south
+warp south
+warp south
+warp east
+move east
+use_key old_access_key south
+move south
+take data_fragment_pyro
+move north
+move west
+warp north
+warp west
+move north
+use data_fragment_pyro access_code_decoder
+use data_fragment_verdant access_code_decoder
+use data_fragment_tempest access_code_decoder
+take Base_access_code
+use_key Base_access_code north
+move north
